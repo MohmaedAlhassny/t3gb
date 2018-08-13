@@ -16,7 +16,7 @@ client.on('ready', () => {
     client.user.setActivity('Alhassny Orders.',{type: 'PLAYING'});
 });
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-const prefix = "1";
+const prefix = "!";
 
 client.on('message', message => {
 	if(message.content === prefix + 'joinplz') {
